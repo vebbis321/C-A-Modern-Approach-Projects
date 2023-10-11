@@ -43,7 +43,6 @@ int main(void)
                 number[index] = '9'; break;
             default:
                 number[index] = ch;
-
         }
         index++;
     }
