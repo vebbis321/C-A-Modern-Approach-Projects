@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void)
-{ 
+{
     // a)
     int k;
     int i = 10, j = 5;

@@ -1,0 +1,5 @@
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortBlocksOnASingleLine: Empty
+BasedOnStyle: LLVM
+BreakBeforeBraces: Stroustrup
+IndentWidth: 4
