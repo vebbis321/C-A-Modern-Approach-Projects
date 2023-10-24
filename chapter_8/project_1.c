@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include <stdbool.h>
+#include <stdio.h>
 
 int main(void)
 {
@@ -17,9 +17,10 @@ int main(void)
         if (digit_seen[digit][0] != 0) {
             is_repeated = true;
             int seen_count = digit_seen[digit][0];
-            seen_count +=1;
+            seen_count += 1;
             digit_seen[digit][0] = seen_count;
-        } else {
+        }
+        else {
             digit_seen[digit][0] = 1;
             digit_seen[digit][1] = digit;
         }
@@ -31,7 +32,7 @@ int main(void)
         for (int row = 0; row < 10; row++) {
             if (digit_seen[row][0] > 1) {
                 printf("%d", digit_seen[row][1]);
-            } 
+            }
         }
     }
     else {
