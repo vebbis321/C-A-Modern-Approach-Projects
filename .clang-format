@@ -1,5 +1,7 @@
-AllowShortFunctionsOnASingleLine: Empty
-AllowShortBlocksOnASingleLine: Empty
+AllowShortFunctionsOnASingleLine: true
+AllowShortBlocksOnASingleLine: Always
+AllowShortIfStatementsOnASingleLine: true
+AllowShortCaseLabelsOnASingleLine: true
 BasedOnStyle: LLVM
 BreakBeforeBraces: Stroustrup
 IndentWidth: 4
