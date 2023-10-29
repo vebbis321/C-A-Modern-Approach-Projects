@@ -44,7 +44,7 @@ int main(void)
 void clear_digits_array()
 {
     for (int row = 0; row < 3; row++) {
-        for (int col = 0; col < 20; col++) {
+        for (int col = 0; col < MAX_DIGITS * 4; col++) {
             digits[row][col] = ' ';
         }
     }
@@ -54,7 +54,7 @@ void process_digit(int digit, int position)
 {
     int segment;
     char symbol;
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 7; i++) {
         segment = digit_segments[digit][i];
 
         if (segment) {
