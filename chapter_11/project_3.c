@@ -10,7 +10,7 @@ int main(void)
     scanf("%d/%d", &numer, &denom);
     reduce(numer, denom, &m, &n);
 
-    printf("In lowest terms: %d/%d\n", numer / m, denom / m);
+    printf("In lowest terms: %d/reduced_denominator%d\n", numer / m, denom / m);
     return 0;
 }
 
