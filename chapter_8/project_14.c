@@ -31,14 +31,10 @@ int main(void)
 
         if (arr[i] == ' ' || i == 0) {
             for (int n = temp_index - 1; n >= 0; n--) {
-                if (temp_arr[n] != ' ') {
-                    printf("%c", temp_arr[n]);
-                }
+                if (temp_arr[n] != ' ') { printf("%c", temp_arr[n]); }
             }
             temp_index = 0;
-            if (i != 0) {
-                printf(" ");
-            }
+            if (i != 0) { printf(" "); }
         }
     }
 
