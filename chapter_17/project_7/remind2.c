@@ -47,6 +47,8 @@ int main(void)
         for (j = num_remind; j > i; j--)
             reminders[j] = reminders[j - 1];
 
+        reminders[i] =
+            malloc(sizeof(vstring) + sizeof(day_str) + sizeof(msg_str));
         if (reminders[i] == NULL) {
             printf("-- No space left --\n");
             break;
