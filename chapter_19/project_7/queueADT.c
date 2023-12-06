@@ -39,7 +39,6 @@ void enqueue(Queue q, Item i)
     if (new_node == NULL) terminate("Error in enqueue: queue is full");
 
     new_node->data = i;
-
     new_node->next = NULL;
     if (is_empty(q)) {
         q->enqueueNode = new_node;
